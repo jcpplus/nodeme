@@ -1,0 +1,13 @@
+{{> header}}
+<main>
+    <div class="container">
+        <h3>连接mongodb数据库</h3>
+        <ul>
+        <!-- 数据库里有哪些字段，就直接输出哪些字段 -->
+            {{#each readDB}}
+            <li><a href="javascript:void" mailto="{{email}}">{{username}}</a></li>
+            {{/each}}
+        </ul>
+    </div>
+</main>
+{{> footer}}

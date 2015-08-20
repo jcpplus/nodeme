@@ -1,0 +1,17 @@
+{{> header}}
+<main>
+    <div class="container">
+        <div class="col-lg-4 col-lg-offset-4 ">
+            <div class="bs-example">
+            {{#if islogin}}
+                 用户已登录 
+            {{else}}
+                <form action="" method="post">
+                    <button type="submit" class="btn btn-primary">cookies登录</button>
+                </form>
+            {{/if}}
+            </div>
+        </div>
+    </div>
+</main>
+{{>footer}}
