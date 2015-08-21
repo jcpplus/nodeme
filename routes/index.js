@@ -28,7 +28,7 @@ router.get('/users', function(req, res, next) {
  * [关于get与post]
  * @param  {[type]} req   [description]
  * @param  {[type]} res   [description]
- * @param  {[type]} next) {               var    userName [description]
+ * @param  {[type]}       [description]
  * @return {[type]}       [description]
  *
  * 再回过头看看GET和POST方式接收值，从直接效果上来看
